@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Caveat:wght@600&family=Chewy&family=Combo&family=Diplomata+SC&family=Rubik+Moonrocks&family=Sigmar+One&display=swap');
+*{
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+html,body{
+	width: 100%;
+	height: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-image: url("https://images.unsplash.com/photo-1578923931302-7fd9b3495be7?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NTZ8fHRpbWV8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60");
+	background-position: center center;
+	background-size: cover;
+	opacity: 0.8;
+}
+
+h1{
+	font-family: 'Abril Fatface', cursive;
+	font-family: 'Caveat', cursive;
+	font-family: 'Chewy', cursive;
+	font-family: 'Combo', cursive;
+	font-family: 'Diplomata SC', cursive;
+	font-family: 'Rubik Moonrocks', cursive;
+	font-family: 'Sigmar One', cursive;
+	font-size: 150px;
+	color:#f7f2f2e8;
+	text-align: center;
+}
+
+
+.btn{
+	width: 450px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.btn a{
+	display: block;
+	text-align: center;
+	border-radius: 5px;
+	background-color: #bc0a1cd8;
+	padding: 10px 30px;
+	cursor: pointer;
+	font-weight: bolder;
+	color:#fff;
+	margin: 10px;
+}
+
+.btn a.active{
+	color: #bc0a1cd8;
+	background-color: #fff;
+}
